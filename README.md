@@ -13,7 +13,7 @@ A mobile app for practicing TOEIC Speaking and Writing skills, powered by AI and
 ## 📥 Installation  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/chankiet1804/TOEIC-practice-app.git
+   git clone https://github.com/Lochke/Toeic-app.git
    cd TOEIC-practice-app
 2. Install dependencies:
    ```bash
