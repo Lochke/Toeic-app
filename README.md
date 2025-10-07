@@ -1,41 +1,37 @@
-# React Native TOEIC App
+# Đồ án môn học: Ứng dụng luyện thi TOEIC Speaking & Writing
 
-## Overview
+## Giới thiệu
+Đây là đồ án môn học phát triển ứng dụng di động hỗ trợ luyện thi TOEIC các phần Speaking và Writing. Ứng dụng sử dụng AI để chấm điểm, nhận diện giọng nói và đưa ra phản hồi giúp người học cải thiện kỹ năng.
 
-A mobile app for practicing TOEIC Speaking and Writing skills, powered by AI and speech-to-text technology.
+## Tính năng chính
+- Đăng ký, đăng nhập tài khoản.
+- Luyện tập Speaking: Nhận diện giọng nói, chuyển giọng nói thành văn bản.
+- Luyện tập Writing: Gửi bài viết, nhận phản hồi tự động từ AI.
+- Giao diện thân thiện, dễ sử dụng.
 
-## ✨ Features
-- Developed the login and registration feature using JWT for user authentication.
-- Implemented speech recognition to convert user speech into text (Speaking Section).
-- Integrated OpenAI API to provide feedback on users' responses, helping them improve their answers (Writing Section).
-- **User-friendly interface** designed for an intuitive and seamless learning experience.
+## Công nghệ sử dụng
+- React Native, Expo, TypeScript
+- OpenAI API, RESTful API
+- Firebase
 
-## 📥 Installation  
-1. Clone this repository:  
+## Hướng dẫn cài đặt
+1. Clone repo:
    ```bash
    git clone https://github.com/Lochke/Toeic-app.git
-   cd TOEIC-practice-app
-2. Install dependencies:
+   cd Toeic-app
+   ```
+2. Cài đặt thư viện:
    ```bash
    npm install
-3. Run the app using Expo:
-    ```bash
-      npx expo start
-    ```
-## 🎥 Demo Video
+   ```
+3. Chạy ứng dụng:
+   ```bash
+   npx expo start
+   ```
 
-[Watch the demo here](https://www.youtube.com/shorts/rDcqCB0BCDE)
+## Tác giả
 
-## 🛠️ Tech Stack  
-- **Frontend:** React Native, Expo, TypeScript  
-- **Backend:** Node.js, Express  
-- **AI & APIs:** OpenAI API, RESTful API
-- **Database:** MongoDB 
-- **Version Control:** Git & GitHub
-
-# <img src="https://img.icons8.com/fluency/48/000000/group.png" alt="Team Icon" width="25"/> Author  
-
-| Họ và Tên            | Email                  | LinkedIn 
-| -------------------- | ---------------------- | ---------------------- |
-| Huỳnh Chấn Kiệt      | 22520717@gm.uit.edu.vn |[My profile](https://www.linkedin.com/in/kiet-huynh-651bb6317/)|
+| Họ và Tên         | Email                  | LinkedIn |
+|-------------------|------------------------|----------|
+| Huỳnh Chấn Kiệt   | 22520717@gm.uit.edu.vn | [Profile](https://www.linkedin.com/in/kiet-huynh-651bb6317/) |
 | Nguyễn Minh Lộc      | 22520791@gm.uit.edu.vn |[My profile](https://www.linkedin.com/in/lộc-nguyễn-99b740360/)|
